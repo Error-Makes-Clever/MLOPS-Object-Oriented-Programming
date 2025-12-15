@@ -29,7 +29,7 @@ class chatbook:
         self.username = ''  # Stores email/username
         self.password = ''  # Stores password (should be hashed in production)
         self.loggedin = False  # Tracks login state
-        self.menu()
+        # self.menu()
 
     @staticmethod
     def get_id():
